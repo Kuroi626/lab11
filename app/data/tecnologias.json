@@ -1,0 +1,86 @@
+[
+  {
+    "title": "HTML",
+    "image": "html5.png",
+    "description": "Linguagem de marcação utilizada para estruturar o conteúdo das páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "CSS",
+    "image": "css.png",
+    "description": "Linguagem de estilos usada para definir o layout, cores e design das páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "tailwindcss.png",
+    "description": "Framework CSS utilitário que facilita a criação de interfaces modernas e responsivas.",
+    "rating": 5
+  },
+  {
+    "title": "JavaScript",
+    "image": "javascript.png",
+    "description": "Linguagem de programação que adiciona interatividade e lógica às aplicações web.",
+    "rating": 5
+  },
+  {
+    "title": "TypeScript",
+    "image": "typescript.png",
+    "description": "Superset de JavaScript com tipagem estática, aumentando a segurança e a escalabilidade do código.",
+    "rating": 4
+  },
+  {
+    "title": "JSON",
+    "image": "json.png",
+    "description": "Formato leve de troca de dados, muito utilizado em APIs e aplicações web.",
+    "rating": 4
+  },
+  {
+    "title": "API RESTful",
+    "image": "API.png",
+    "description": "Arquitetura de APIs baseada em HTTP, permitindo comunicação entre sistemas.",
+    "rating": 4
+  },
+  {
+    "title": "Swagger",
+    "image": "swagger.png",
+    "description": "Ferramenta para documentação, teste e visualização de APIs REST.",
+    "rating": 3
+  },
+  {
+    "title": "GitHub",
+    "image": "github.png",
+    "description": "Plataforma de versionamento de código e colaboração baseada em Git.",
+    "rating": 5
+  },
+  {
+    "title": "GitHub Codespaces",
+    "image": "codespaces.png",
+    "description": "Ambiente de desenvolvimento na cloud integrado com o GitHub.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub Pages",
+    "image": "githubpages.png",
+    "description": "Serviço de alojamento de sites estáticos diretamente a partir de repositórios GitHub.",
+    "rating": 4
+  },
+  {
+    "title": "React.js",
+    "image": "react.png",
+    "description": "Biblioteca JavaScript para criação de interfaces de utilizador baseadas em componentes.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "nextdotjs.png",
+    "description": "Framework React com suporte a SSR, SSG, rotas automáticas e otimização de performance.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "vercel.png",
+    "description": "Plataforma de deploy e hosting otimizada para projetos frontend e Next.js.",
+    "rating": 4
+  }
+]
