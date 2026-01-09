@@ -1,22 +1,17 @@
-import Image from 'next/image';
+import Link from 'next/link';
 
-
-interface TecnologiaCardProps {
-title: string;
-image: string;
-}
-
-
-export default function TecnologiaCard({ title, image }: TecnologiaCardProps) {
+export default function Tecnologia({ tecnologia, index }: { tecnologia: any; index: number }) {
 return (
-<div className="w-48 h-48 bg-white rounded-xl shadow-md p-4 flex flex-col items-center justify-center m-2">
-<Image
-src={`/tecnologias/${image}`}
-alt={title}
-width={60}
-height={60}
-/>
-<h3 className="mt-4 font-semibold text-center">{title}</h3>
-</div>
+<li className="border p-4 rounded-lg flex justify-between items-center">
+<span className="font-medium">{tecnologia.nome}</span>
+
+
+<Link
+href={`/tecnologias/${index}`}
+className="text-blue-600 hover:underline"
+>
+Ver detalhes
+</Link>
+</li>
 );
 }
