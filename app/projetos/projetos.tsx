@@ -1,5 +1,5 @@
 'use client';
-import DescricaoProjetos from '@/components/DescricaoProjetos';
+import DescricaoProjetos from '@/components/descricaoprojeto';
 
 
 export default function ProjetosPage() {
